@@ -327,7 +327,10 @@ li.competences{
         width: 80%;
         background: black;
     }
-        
+    @media (max-width: 720px) {
+          .grid{display: none;}
+          .btn-toggle{display: block;}
+    }    
     p {
         font-size: 1.4em; /* 1.4em relative to a 16px baseline on the body will result in a 20px font size */
         line-height: 1.4em;
@@ -400,12 +403,12 @@ li.competences{
     }
     h2.header{
         font-size: 1.3em;
-        margin-right: 10em;
+        margin-right: 2em;
     }
     p.header{
         text-align: justify;
         font-size: 1em;
-        margin-right: 10em;
+        margin-right: 2em;
     }
     img.header{
         margin: 2.5em 1em;
@@ -433,7 +436,7 @@ li.competences{
     p.content{
         text-align: justify;
         font-size: 1em;
-        margin-right: 10em;
+        margin-right: 2em;
     }
     li.content{
            font-size: 0.8em;
@@ -514,12 +517,13 @@ li.competences{
     @media (max-width: 1024px) {
           .grid{display: none;}
           .btn-toggle{display: block;}
+          .img{display: none;}
     }
     /*grid colocação*/
     .header{
         position: relative;
         background-color: rgba(10,23,55,0.8);
-        padding-left: 1em;
+        padding-left: 0;
         color: white;
 
     }
@@ -530,21 +534,22 @@ li.competences{
     }
     h2.header{
         font-size: 1.3em;
-        margin-right: 10em;
+        margin-right: 1em;
     }
     p.header{
         text-align: justify;
         font-size: 1em;
-        margin-right: 10em;
+        margin-right: 1em;
     }
     img.header{
+
         margin: 2.5em 1em;
         border-image-slice: round;
     }
     .content{
         position: relative;
         background-color: rgba(220,220,220,0.8);
-        margin-left: 1em;
+        margin-left: 0.5em;
     }
     h1.content{
         text-transform: uppercase;
@@ -563,11 +568,11 @@ li.competences{
     p.content{
         text-align: justify;
         font-size: 1em;
-        margin-right: 10em;
+        margin-right: 1em;
     }
     li.content{
-           font-size: 0.8em;
-        margin-right: 10em;
+           font-size: 1em;
+        margin-right: 1em;
 
     }
     .sidebar{
@@ -584,22 +589,22 @@ li.competences{
     h2.sidebar{
         text-transform: uppercase;
         font-size: 1.3em;
-        margin-right: 10em;
+        margin-right: 1em;
     }
     p.sidebar{
         text-align: justify;
         font-size: 1em;
-        margin-right: 10em;
+        margin-right: 1em;
     }
     li.sidebar{
-         font-size: 0.8em;
+         font-size: 1em;
          margin-right: 1em;
         text-decoration: none;
         list-style: none;
 
     }
     li.competences{
-        font-size: 0.8em;
+        font-size: 1em;
          margin-right: 1em;
         text-decoration: none;
         list-style: none
