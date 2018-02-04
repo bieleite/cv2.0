@@ -1,7 +1,7 @@
 body {
     font-size: 100%; /* flexible baseline */
     width: 80%;
-    background-image: url(https://cdn.vox-cdn.com/thumbor/3J7E3U-It5ke6qq9kDfuYDjL1WM=/0x55:600x393/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/46964524/jellyfish.0.0.gif);
+    background:black;
     background-size: cover;
 }
 
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*grid colocação*/
 .header{
-    position: relative;
+   /* position: relative;*/
     background-color: rgba(10,23,55,0.8);
     padding-left: 1em;
     color: white;
@@ -89,7 +89,7 @@ img.header{
     border-image-slice: round;
 }
 .content{
-    position: relative;
+   /* position: relative;*/
     background-color: rgba(220,220,220,0.8);
     margin-left: 1em;
 }
@@ -390,7 +390,7 @@ li.competences{
     }
     /*grid colocação*/
     .header{
-        position: relative;
+       /* position: relative;*/
         background-color: rgba(10,23,55,0.8);
         padding-left: 1em;
         color: white;
@@ -400,22 +400,34 @@ li.competences{
         text-transform: uppercase;
         font-size: 2.5em;
         margin-right: 2em;
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        text-align:center;
+    }
+    h2.stage{
+        margin-top: 6em;
+
     }
     h2.header{
         font-size: 1.3em;
         margin-right: 2em;
+        width:100%;
     }
     p.header{
         text-align: justify;
         font-size: 1em;
         margin-right: 2em;
+        width:100%;
     }
     img.header{
         margin: 2.5em 1em;
         border-image-slice: round;
+        width:100%;
     }
     .content{
-        position: relative;
         background-color: rgba(220,220,220,0.8);
         margin-left: 1em;
     }
@@ -521,7 +533,6 @@ li.competences{
     }
     /*grid colocação*/
     .header{
-        position: relative;
         background-color: rgba(10,23,55,0.8);
         padding-left: 0;
         color: white;
@@ -547,7 +558,7 @@ li.competences{
         border-image-slice: round;
     }
     .content{
-        position: relative;
+
         background-color: rgba(220,220,220,0.8);
         margin-left: 0.5em;
     }
