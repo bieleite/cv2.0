@@ -330,6 +330,7 @@ li.competences{
     @media (max-width: 720px) {
           .grid{display: none;}
           .btn-toggle{display: block;}
+          .img{display:none ;}
     }    
     p {
         font-size: 1.4em; /* 1.4em relative to a 16px baseline on the body will result in a 20px font size */
