@@ -431,6 +431,7 @@ li.competences{
     .content{
         background-color: rgba(220,220,220,0.8);
         margin-left: 1em;
+        margin-top: 5em;
     }
     h1.content{
         text-transform: uppercase;
