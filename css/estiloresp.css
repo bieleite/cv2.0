@@ -4,6 +4,10 @@ body {
     background:black;
     background-size: cover;
 }
+a.sidebar{
+	color:white !important;
+	text-decoration: none!important;
+}
 a{
 	color:black !important;
 	text-decoration: none!important;
