@@ -5,7 +5,7 @@ body {
     background-size: cover;
 }
 a{
-	color:black!important;
+	color:black !important;
 	text-decoration: none!important;
 }
 a:link, a:active, a:visited{
