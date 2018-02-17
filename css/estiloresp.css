@@ -4,6 +4,9 @@ body {
     background:black;
     background-size: cover;
 }
+a{
+	text-decoration: none!important;
+}
 a:link, a:active, a:visited{
 	text-decoration: none!important;
 }
