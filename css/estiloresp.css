@@ -9,7 +9,7 @@ a.sidebar{
 	text-decoration: none!important;
 }
 a{
-	color:black !important;
+	color:black;
 	text-decoration: none!important;
 }
 a:link, a:active, a:visited{
